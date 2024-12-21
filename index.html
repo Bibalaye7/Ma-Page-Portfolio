@@ -5,63 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-
+<div>
     <header>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="About.html">about</a></li>
                 <li><a href="Word.html">Work</a></li>
                 <li><a href="Resume.html">Resume</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
+            <form class="droite">
+                <input type="search" name="q" placeholder="recherche">
+            </form>
         </nav>
     </header>
-
+</div>
 
     <section>
         <h1>ACCUEIL</h1>
-        <p>Développeur depuis plus de 2 ans, je crée des sites web et applications mobiles dynamiques et statiques.</p>
+        <p id="paragraphe">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis qui voluptatibus officiis necessitatibus eius, deleniti ipsum et sint quaerat provident iure amet error, repellendus labore aperiam molestiae facere magnam. Quaerat autem, distinctio doloribus officia aperiam asperiores id tempora maxime illo nobis blanditiis facere, fuga numquam eum iusto, quidem adipisci architecto suscipit molestias ratione sint quod non aliquam. Beatae fugiat aspernatur numquam, odio iure dolorem! Consequatur fugiat nisi dolor, illo nobis assumenda officia ratione eos culpa quaerat tenetur iste vero, quod doloribus aliquam delectus, consectetur temporibus odit tempore obcaecati. Aut ipsum natus beatae, ab ut incidunt sapiente. Explicabo perspiciatis quidem adipisci!</p>
     </section>  
 
     
     <section>
         <h2>IMAGE</h2>
-        <img src="image.jpg" height="100px" width="200px"  alt="la nature">
+        <P id="image">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa non ratione cumque quia, dolores, dicta quae placeat amet aspernatur saepe tempore laboriosam possimus, dolor autem doloremque nostrum cum a rerum ex repudiandae omnis! Pariatur mollitia hic modi asperiores autem quidem nemo a voluptates iure velit, impedit placeat distinctio tenetur laborum commodi minima perspiciatis. Repellendus harum at minima iste non facere tempora ut, cupiditate dolores commodi. Obcaecati, quod temporibus quas ex ipsam maxime tempore nostrum error repudiandae architecto rerum doloremque non rem consequatur ipsa reprehenderit recusandae, laboriosam odit omnis asperiores deserunt fugit voluptate hic! Corrupti laborum pariatur qui consequatur expedita harum.</P>
+        <img src="image.jpg" height="150px" width="250px"  alt="la nature">
     </section>
 
 
     <section>
         <h3>VIDEO</h3>
+        <p class="video">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis similique saepe placeat? Delectus numquam, enim dolore possimus aspernatur odio dolorum doloremque molestiae in id deserunt quidem fugit assumenda reiciendis. Accusamus cum, impedit aliquid tempora saepe ipsam perferendis adipisci rem mollitia libero necessitatibus, fuga dolores, recusandae amet consectetur quibusdam incidunt totam. Alias beatae quidem eos, doloribus, repellat, ex optio consectetur omnis dolorum facere sequi reprehenderit laborum minima! Explicabo consectetur nulla delectus saepe deleniti et culpa quam. Corporis, amet dolores! Suscipit modi ab quos, aut repellendus quidem omnis. Aliquam excepturi, quod ducimus reiciendis adipisci sit velit totam ullam ex perspiciatis officiis ipsa.</p>
         <video controls>
             <source src="video.mp4" type="video/mp4">
         </video>
     </section>
 
- 
-    <section>
+    
         <h4>FORMULAIRE</h4>
-        <form action="">
-        <div>
-            <label for="name">PRENOM</label>
-            <input type="name" id="name">
-          </div>
-            <label for="email">EMAIL</label>
-            <input type="email" id="email">
-        <div>
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password">
-        </div>
-            <button type="submit">Soumettre</button>
-            <button type="submit">Supprimer</button>
+    <section>
+        <form action="" method="get">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom">
+                <label for="nom">Nom de famille</label>
+                <input type="text" name="nom" id="nom">
+                <label for="email">Email</label>
+                <input type="e-mail" name="email" id="email" autofocus required>
+                <label for="password">Notre mot de passe</label>
+                <input type="password" name="password" id="password">
+           
+                <input type="submit" value="Envoyer">
+            </fieldset>
         </form>
-
     </section>
-   
 
     <footer>
         <h5>CONTACTE MOI</h5>

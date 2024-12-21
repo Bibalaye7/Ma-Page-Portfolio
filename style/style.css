@@ -1,0 +1,95 @@
+body{
+    padding: none;
+    margin: none;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+#paragraphe{
+    padding:none;
+    margin: none;
+}
+
+h2{
+    color: #ffd358;
+    font-family: roboto;
+}
+#image{
+padding: none;
+margin: none;
+}
+
+.video{
+    padding: none;
+    margin: none;
+}
+
+h3{
+    color: red;
+    font-family: italic;
+}
+
+h4{
+    color: blue;
+}
+
+div{
+    background-color: black;
+    height: 80px;
+    margin: 10px;
+}
+
+
+ header nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+ }
+
+header nav  ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+ul li a:hover{
+color: #ffd358;
+text-decoration: underline;
+} 
+
+
+.menu li a{
+    text-decoration: none;
+}
+
+.droite{
+    padding: none;
+    text-align: right;
+
+}
+
+input[type="search"]{
+    font-size: 17px;
+}
+
+input [type='submit'] {
+margin-top: 20px;
+font-size: 1em;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+fieldset{
+    background-color: #BAC9CE;
+}
